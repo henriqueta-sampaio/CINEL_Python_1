@@ -1,0 +1,21 @@
+#Ex.3 - Pedir dois números.
+
+v1 = int(input("Insira um valor: "))
+v2 = int(input("Indique um outro valor: "))
+
+#a) a soma dos dois valores
+soma = v1 + v2
+print(f"A soma dos números {v1} e {v2} é {soma}")
+
+#b) a diferença entre os dois valores
+dif = v1 - v2
+print(f"A diferença entre os números {v1} e {v2} é {dif}")
+
+#c) o produto entre os dois valores
+prod = v1*v2
+print(f"O produto dos números {v1} e {v2} é {prod}")
+
+#d) o quociente e o resto da divisão entre os dois valores
+quoc = v1 // v2
+resto = v1 % v2
+print(f"O quociente dos números {v1} e {v2} é {quoc} e o resto da divisão é {resto}")
